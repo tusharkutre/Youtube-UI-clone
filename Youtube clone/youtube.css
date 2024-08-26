@@ -1,0 +1,57 @@
+/* body{
+    background-color: black;
+    color: white;
+} */
+.container{
+    padding: 0 5rem;
+}
+.header{
+    padding: auto;
+    margin-block: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.icons .youtube{
+    color:red;
+    font-size: 30px;
+}
+.icons .youtube{
+    cursor: pointer;
+    color:red;
+    font-size: 30px;
+}
+.icons .hamburger{
+    cursor: pointer;
+    font-size: 25px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.account-icons{
+    display: flex;
+    gap: 15px;
+}
+main{
+    position: relative;
+}
+aside{
+    position: absolute;
+}
+.small-videos-flex{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sub-parent{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
